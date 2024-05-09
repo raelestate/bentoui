@@ -7,7 +7,7 @@ function Footer() {
             {/* Logo section */}
             <div className="mb-8 md:mb-0">
               <a href="#" className="text-white text-xl font-bold">
-                Kyaraben
+                Website under development! Stay tuned for updates.
               </a>
             </div>
             <div className="bg-white text-black text-center py-2"></div>
