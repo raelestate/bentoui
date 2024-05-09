@@ -24,3 +24,16 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d1b328",endColorstr="#f7f9d6",GradientType=1);
 }
+
+.font-sans {
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-helvetica {
+  font-family: "Helvetica", sans-serif;
+}
