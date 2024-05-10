@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -19,7 +21,14 @@ function Navbar() {
             </div>
             <div className="hidden md:block">
               <div className="ml-12 flex items-center md:ml-6 font-semibold font-sans">
-                <a href="#" className="text-white hover:text-gray-300">
+                <a
+                  href="/Components"
+                  className={`text-white hover:text-gray-300 ${
+                    location.pathname === "/Components"
+                      ? "text-gray-300"
+                      : "text-black"
+                  }`}
+                >
                   Components
                 </a>
                 <a href="#" className="ml-12 text-white hover:text-gray-300">

@@ -11,6 +11,9 @@ function Welcome() {
           </span>
           - Design Made Easy.
         </h1>
+        <h1 className="text-2sm md:text-4 font-extrabold text-center md:text-start pt-5">
+          Made with Tailwind
+        </h1>
       </div>
     </div>
   );

@@ -13,17 +13,11 @@ function Footer() {
             <div className="bg-white text-black text-center py-2"></div>
             {/* Navigation section */}
             <nav className="flex flex-wrap justify-center md:justify-end -mx-2">
-              <a href="#" className="px-2 py-1 text-gray-300 hover:text-white">
-                Home
-              </a>
-              <a href="#" className="px-2 py-1 text-gray-300 hover:text-white">
-                About
-              </a>
-              <a href="#" className="px-2 py-1 text-gray-300 hover:text-white">
-                Services
-              </a>
-              <a href="#" className="px-2 py-1 text-gray-300 hover:text-white">
-                Contact
+              <a
+                href="https://github.com/raelestate/kyaraben"
+                className="px-2 py-1 text-gray-300 hover:text-white"
+              >
+                Github
               </a>
             </nav>
           </div>
