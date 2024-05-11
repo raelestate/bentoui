@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -22,12 +22,8 @@ function Navbar() {
             <div className="hidden md:block">
               <div className="ml-12 flex items-center md:ml-6 font-semibold font-sans">
                 <a
-                  href="/Components"
-                  className={`text-white hover:text-gray-300 ${
-                    location.pathname === "/Components"
-                      ? "text-gray-300"
-                      : "text-black"
-                  }`}
+                  className="ml-12 text-white hover:text-gray-300"
+                  onClick={() => navigate("/Components")}
                 >
                   Components
                 </a>

@@ -37,3 +37,20 @@ body {
 .font-helvetica {
   font-family: "Helvetica", sans-serif;
 }
+
+.bg-gradient-text {
+  background-image: linear-gradient(to right, #4f46e5, #78b3ff, #2ea04a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: animateGradient 1s linear infinite;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
