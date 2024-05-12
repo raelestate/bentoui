@@ -1,5 +1,5 @@
 import Button from "./Button";
-import DesignCodeAnimation from "./DesignCodeAnimation";
+
 function Welcome() {
   return (
     <div className="px-10">
@@ -29,7 +29,6 @@ function Welcome() {
           </div>
         </div>
       </div>
-      <DesignCodeAnimation />
     </div>
   );
 }
