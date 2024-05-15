@@ -6,7 +6,7 @@ function Welcome() {
     <div className="px-10">
       <div className="pt-36 md:pt-20 md:text-center p-9 lg:text-center">
         <div className="relative">
-          <Card classname="absolute bg-purple-600/85 z-0 rounded-xl shadow-lg w-10 h-10 lg:w-[30.4rem] lg:h-16" />
+          <Card classname="absolute bg-purple-600/85 z-0 rounded-xl shadow-lg w-10 h-10 lg:w-[26rem] lg:px-[10rem] lg:ps-14 lg:h-16" />
           <Card classname="absolute bg-purple-600/85 z-0 rounded-xl shadow-lg w-10 h-10 lg:w-[25rem] lg:h-16 mt-20" />
           <h1 className="text-4xl md:text-6xl font-extrabold text-center md:text-center relative z-10">
             A Bento Style UI at Your Fingertips
