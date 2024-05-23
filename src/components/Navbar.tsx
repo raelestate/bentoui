@@ -22,18 +22,27 @@ function Navbar() {
             <div className="hidden md:block">
               <div className="ml-12 flex items-center md:ml-6 font-semibold font-sans">
                 <a
-                  className="ml-12 text-white hover:text-gray-300"
+                  className="transition ease-in-out p-4 block text-white hover:text-gray-300 hover:bg-slate-500 hover:rounded-sm hover:p-4"
                   onClick={() => navigate("/Components")}
                 >
                   Components
                 </a>
-                <a href="#" className="ml-12 text-white hover:text-gray-300">
+                <a
+                  href="#"
+                  className="transition ease-in-out p-4 text-white hover:text-gray-300 hover:bg-slate-500 hover:rounded-sm hover:py-4"
+                >
                   Theme
                 </a>
-                <a href="#" className="ml-12 text-white hover:text-gray-300">
+                <a
+                  href="#"
+                  className="transition ease-in-out p-4 text-white hover:text-gray-300 hover:bg-slate-500 hover:rounded-sm hover:py-4"
+                >
                   Templates
                 </a>
-                <a href="#" className="ml-12 text-white hover:text-gray-300">
+                <a
+                  href="#"
+                  className="transition ease-in-out p-4 text-white hover:text-gray-300 hover:bg-slate-500 hover:rounded-sm hover:py-4"
+                >
                   About Us
                 </a>
               </div>
@@ -65,16 +74,28 @@ function Navbar() {
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" className="block text-white hover:text-gray-300">
+            <a
+              href="#"
+              className="p-4 block hover:rounded-sm transition ease-in-out text-white  hover:text-gray-300 hover:bg-slate-500"
+            >
               Components
             </a>
-            <a href="#" className="block text-white hover:text-gray-300">
+            <a
+              href="#"
+              className="p-4 block hover:rounded-sm transition ease-in-out text-white  hover:text-gray-300 hover:bg-slate-500"
+            >
               Theme
             </a>
-            <a href="#" className="block text-white hover:text-gray-300">
+            <a
+              href="#"
+              className="p-4 block hover:rounded-sm transition ease-in-out text-white  hover:text-gray-300 hover:bg-slate-500"
+            >
               Templates
             </a>
-            <a href="#" className="block text-white hover:text-gray-300">
+            <a
+              href="#"
+              className="p-4 block hover:rounded-sm transition ease-in-out text-white  hover:text-gray-300 hover:bg-slate-500"
+            >
               About Us
             </a>
           </div>
